@@ -1,0 +1,610 @@
+{
+  "schematics": {
+    "c6585318aa8a438fb18ff9bcc60141fc": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "21b8deada48c4bd18e852a832defbe15"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "d739bd87af81466899c6281507216395": "PCB3"
+  },
+  "panels": {},
+  "symbols": {
+    "a18d88d59c264143b418fca7bb025ea2": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734001722",
+      "type": 20
+    },
+    "3e7a3022bed64a1f9069c92d58d0a513": {
+      "source": "376c92754cfe47da9c4cb5a720332c70|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "100uF (107) ±10% 6.3V",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Tantalum Capacitors\"]",
+      "title": "TAJB107K006RNJ",
+      "version": "1742925071",
+      "type": 2
+    },
+    "932faa60b2eb4cab9dbf9f5598e96ca9": {
+      "source": "93e349e4fab44272bb14b5a672eacd81|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "RMC06036.2K1%N",
+      "version": "1705401019",
+      "type": 2
+    },
+    "ca0523e420e64933a9c44e49bbf79c02": {
+      "source": "b4fc5614febe4d0c966db51b22af788e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Power-VCC",
+      "version": "1723254107",
+      "type": 18
+    },
+    "6b9391983dc44c1099fe6967d7fd7146": {
+      "source": "1c18ed5a06f64a07bdb5b0cf525b3d9e|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Ground-GND",
+      "version": "1649575362",
+      "type": 18
+    },
+    "4e6c312d25b94406b24145985a91bb21": {
+      "source": "53db9af104004ceca21ea184ecf6d7d3|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "0603",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\",\"LED Indication - Discrete\"]",
+      "title": "KT-0603R",
+      "version": "1729152959",
+      "type": 2
+    },
+    "f243f1b2b9ea43309497555cc999c920": {
+      "source": "ea1495f934bc4375bd1beeef2a094eee|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "MMBT3904 1AM 100-300",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Transistors/Thyristors\",\"Bipolar (BJT)\"]",
+      "title": "MMBT3904",
+      "version": "1742925071",
+      "type": 2
+    },
+    "60a00e8d84f64a869c9cd509d492666f": {
+      "source": "862ebb7e7dd5448e95ee6f3deddaff76|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Switches\",\"Slide Switches\"]",
+      "title": "MST-12D18G2 SMD SLIDE SWITCH",
+      "version": "1768144320",
+      "type": 2
+    },
+    "ec36ef6095284ad395584f070a332596": {
+      "source": "61323d6af7d14776bb8191febe390154|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"Button And Strip Battery Connector\"]",
+      "title": "CR2032-B1",
+      "version": "1761391490",
+      "type": 2
+    },
+    "5d5f509e6ada434ab17693439556b8b2": {
+      "source": "d7a52d1e7e224bcba3b95a9220f2405a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "330Ω (3300) ±1%",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "0603WAF3300T5E",
+      "version": "1732256403",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "a56b5f7ed0e64d41a0add34515bb830a": {
+      "title": "CASE-B_3528",
+      "source": "ac61722f54014d708a9ae30794e6dd3d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1661147193",
+      "type": 4,
+      "desc": ";CASE-B-3528;1411;1206;CASE-B_3528;CASE-T_3528;CASE-B-3528-21(mm);SMD,2.8x3.5mm;3528;钽电容",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CASE-B\"]"
+    },
+    "53bcff0941c248d2b49fbfbc48340614": {
+      "title": "R0603",
+      "source": "b44c1b381d26462586b8a8d9fac22ec8|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1766479705",
+      "type": 4,
+      "desc": "0603;-;1206;1608;0201;SMD;0805;---;2.2KR;R0603;R603;603;插件;Res2;0603R;ESD0603;0603-S;0603-R;LC-0603_R;RES0603;RES0603-SMD-2P;5101%;Res0603;ROHM Semiconductor",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"RES-SMD\",\"\"]"
+    },
+    "cf6494db30bf4f4ab6fa89236c453bfb": {
+      "title": "LED0603-RD",
+      "source": "ab8fcad6728e4197a69081eb9195186e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1766728131",
+      "type": 4,
+      "desc": "0603;SMD;---;SMD,1.6x0.8x0.4mm;SMD,1.2x1.6mm;LED0603-RD;LED_0603;-;LED0603;0603-LED;LED1608;1608(0603);D0603;W_LED;LED-0603;LED_R_0603;LED1;LED-SMD;LED-SMD-0603;LED;LED-SMD0603;LED0603立贴2P;LED_0603S;LED0603-R",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED-SMD\"]"
+    },
+    "1fcf19226ce740d0845dca04e8afb999": {
+      "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "source": "18f92042a8ba46109ed61a02a6753de7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1766747611",
+      "type": 4,
+      "desc": "SOT-23-3;CPH-3;SOT-23;SOT-23(TO-236);SOT-23B-3;SOT-23A-3;SOT-3;SOT-223-3;TO-236-3,SC-59,SOT-23-3;SOT-23-3L;TO-23(TO-236);TO-236-3;SOT-323(SC-70);SOT-323-6;TO-236AB;-;SOT-223;SOT-323-3;SOT23-3;PG-SOT23-3;SUPERSOT-3;SOT-23F-3;SMD;SOT23;SOT-23-3S;SOT-23S;SOT-23N;SOT-23R;SOT-23(SOT-23-3);TO-236;SOT-23A;---;TO-236-3, SC-59, SOT-23-3;SOT-23F-3L;SOT-23L;SOT-23E;TSOT-23-3;SC-59-3;SOT-23-3A;SOT-23-3_1.3x2.9x1.90P;SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR;PG-SOT23;SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BL;SOT-23-3_L2.9-W1.3;SGM2203-3_3AYN3LG_TR_SGM2203-3_;SOT-23-3_L2.9-W1.3-P1.90-LS2.4;SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL;SOT-23-3_L2.9-W1.3-P1.90-LS2.40;SOT-23-3_L2.9-W1.3-P1.90-LS2.40-BL;SOT-23-3_L2.9-W1.6-P1.90-LS2.4;SOT_233_W;LC-SOT-23(SOT-23-3);SMT_SOT-23-3;SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR;SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BL;BAT54S;SOT23A;MCP;SOT-23-3-11;SOT-23-3(TO-236-3);SOT-23(SOT-236);SOT-23R-3;SOT-523(SC-75);SST-3;SOT-23-5;UMAX-8;SC-70-3;DIP-24;SOT23-3-W1.3;SOT23-G;SuperSOT-7;SOT-23-3(TO-236);SOT-23(2.9x1.3);SOT-23-W1.3;SOT-323;TSOT23-3;SOT-23_W1.3;SOT23-3L;SOT23_L;SOT23G-3;TSOT-26;SOT-23F",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "6d1857b1014f4d488141cd7176b17708": {
+      "title": "SW-SMD_3P-L9.1-W3.5-P2.50_MST-12D18G2",
+      "source": "6ecf222ae6234408a6bbe781c43721c7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1770359734",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SW-SMD\"]"
+    },
+    "fa2078e2599a45f2acf3648bcc98b194": {
+      "title": "BAT-SMD_CR2032-B1",
+      "source": "89f8c4e0b11c42efa623120805577875|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1761391967",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"BAT-SMD\"]"
+    }
+  },
+  "devices": {
+    "e2d7333d37604df0b0ee931f8b21baa4": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "EasyEDA.com",
+        "Reviewed": "",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "a18d88d59c264143b418fca7bb025ea2",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734001722",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "f5b0cad801584acf886beb0b82ce94b0": {
+      "title": "TAJB107K006RNJ",
+      "attributes": {
+        "LCSC Part Name": "100uF ±10% 6.3V",
+        "Supplier Part": "C16133",
+        "Manufacturer": "Kyocera AVX",
+        "Manufacturer Part": "TAJB107K006RNJ",
+        "Supplier Footprint": "CASE-B-3528-21(mm)",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "3e7a3022bed64a1f9069c92d58d0a513",
+        "Designator": "C?",
+        "Footprint": "a56b5f7ed0e64d41a0add34515bb830a",
+        "3D Model": "fcfe77907b4c4657a633363937ce9b62",
+        "3D Model Title": "CASE-B_L3.5-W2.8-H1.9",
+        "3D Model Transform": "145.669,110.236,0,0,0,0,0,0,0",
+        "Value": "100uF",
+        "Tolerance": "±10%",
+        "Voltage Rating": "6.3V",
+        "Equivalent Series Resistance(ESR)": "1.7Ω@100kHz",
+        "Operating Temperature": "-55℃~+125℃",
+        "Name": "={Value}",
+        "Description": "Capacitance:100uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):1.7Ω@100kHz Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃"
+      },
+      "description": "Capacitance:100uF Tolerance:±10% Tolerance:±10% Voltage Rating:6.3V Equivalent Series Resistance(ESR):1.7Ω@100kHz Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250425/B91F0A522C4FFF84C6C4A8C253EB5E0F.jpg"
+      ],
+      "source": "52d8479ccd664cf7b6a8557b54ef5bb9|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1677583743",
+      "custom_tags": "[\"Capacitors\",\"Tantalum Capacitors\"]"
+    },
+    "00dc8d7577c6409d80d63b3be6bd99f5": {
+      "title": "RMC06036.2K1%N",
+      "attributes": {
+        "LCSC Part Name": "厚膜电阻 6.2kΩ ±1% 100mW",
+        "Supplier Part": "C325649",
+        "Manufacturer": "Tyohm(幸亚电阻)",
+        "Manufacturer Part": "RMC06036.2K1%N",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/RMC06036.2K1%2525N/305854.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "932faa60b2eb4cab9dbf9f5598e96ca9",
+        "Designator": "R?",
+        "Footprint": "53bcff0941c248d2b49fbfbc48340614",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistor",
+        "Value": "6.2kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "100mW",
+        "Voltage-Supply(Max)": "50V",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistor Resistance:6.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistor Resistance:6.2kΩ Tolerance:±1% Tolerance:±1% Power(Watts):100mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251020/2BCCC332D5ED41ED635DDF55AC70834C.jpg"
+      ],
+      "source": "4beedf4646f24ee9ac974c00fb445e77|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660163920",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "3b79e705c35b4a0dbdeec4969cce66fa": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Global Net Name": "VCC",
+        "Name": "",
+        "Symbol": "ca0523e420e64933a9c44e49bbf79c02",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "7737efc32ff44ecb8cf68152f3fbd014|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1723254107",
+      "custom_tags": "[]"
+    },
+    "b4368a0db3024eb09f24b508e641b5db": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "6b9391983dc44c1099fe6967d7fd7146",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "2e4e71fea06848c9a86eef0ed6338204|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1649575370",
+      "custom_tags": "[]"
+    },
+    "c37fb698971e44f0829d8a017eb2c731": {
+      "title": "KT-0603R",
+      "attributes": {
+        "LCSC Part Name": "0603 红灯 高亮",
+        "Supplier Part": "C2286",
+        "Manufacturer": "KENTO",
+        "Manufacturer Part": "KT-0603R",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/KT-0603R/2659.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "4e6c312d25b94406b24145985a91bb21",
+        "Designator": "LED?",
+        "Footprint": "cf6494db30bf4f4ab6fa89236c453bfb",
+        "3D Model": "5e3b568068dd46cf8019c1d1baa0031b",
+        "3D Model Title": "LED0603-RD",
+        "3D Model Transform": "63.7794,32.283,0,0,0,0,0,0,0",
+        "Lamp Holder Type": "-",
+        "Illumination Color": "Red",
+        "Voltage - Forward(Vf)": "1.8V~2.4V",
+        "Power(Watts)": "40mW",
+        "Forward Current": "20mA",
+        "Wavelength - Dominant": "615nm~630nm",
+        "Peak Wavelength": "645nm",
+        "Diode Configuration": "Discrete Diode",
+        "Lens Color": "Water Clear",
+        "Color Temperature": "-",
+        "Luminous Intensity": "300mcd",
+        "Viewing Angle": "120°",
+        "Mounting Style": "-",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Lamp Holder Type:- Illumination Color:Red Voltage - Forward(Vf):1.8V~2.4V Voltage - Forward(Vf):1.8V~2.4V Power(Watts):40mW Forward Current:20mA Wavelength - Dominant:615nm~630nm Wavelength - Dominant:615nm~630nm Peak Wavelength:645nm Diode Configuration:"
+      },
+      "description": "Lamp Holder Type:- Illumination Color:Red Voltage - Forward(Vf):1.8V~2.4V Voltage - Forward(Vf):1.8V~2.4V Power(Watts):40mW Forward Current:20mA Wavelength - Dominant:615nm~630nm Wavelength - Dominant:615nm~630nm Peak Wavelength:645nm Diode Configuration:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20251025/2E6832A76398458E60E04B3042767237.jpg"
+      ],
+      "source": "015cbd77079d4b0ea5c81b79fefdcea3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1676468520",
+      "custom_tags": "[\"Optoelectronics\",\"LED Indication - Discrete\"]"
+    },
+    "003473eb4aab4fd784b45a563607cf2a": {
+      "title": "MMBT3904(RANGE:100-300)",
+      "attributes": {
+        "LCSC Part Name": "hfe=100~300 NPN 电流:200mA 电压:40V",
+        "Supplier Part": "C20526",
+        "Manufacturer": "CJ(江苏长电/长晶)",
+        "Manufacturer Part": "MMBT3904(RANGE:100-300)",
+        "Supplier Footprint": "SOT-23",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MMBT3904(RANGE%253A100-300)/21237.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f243f1b2b9ea43309497555cc999c920",
+        "Designator": "Q?",
+        "Footprint": "1fcf19226ce740d0845dca04e8afb999",
+        "3D Model": "62a57c6760504a01965db6419a6d07df",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.425,114.173,0,180,0,0,0.0005,-0.0005,0",
+        "type": "NPN",
+        "Current - Collector(Ic)": "200mA",
+        "Collector - Emitter Voltage VCEO": "40V",
+        "Pd - Power Dissipation": "200mW",
+        "DC Current Gain": "100@10mA,1V",
+        "Transition frequency(fT)": "300MHz",
+        "Current - Collector Cutoff": "100nA",
+        "Vce Saturation(VCE(sat))": "300mV@50mA,5mA",
+        "Operating Temperature": "-55℃~+150℃",
+        "Emitter-Base Voltage(Vebo)": "6V",
+        "Number": "1 NPN",
+        "Name": "={Manufacturer Part}",
+        "Description": "type:NPN Current - Collector(Ic):200mA Collector - Emitter Voltage VCEO:40V Pd - Power Dissipation:200mW DC Current Gain:100@10mA,1V DC Current Gain:100@10mA,1V Transition frequency(fT):300MHz Current - Collector Cutoff:100nA Vce Saturation(VCE(sat)):300m"
+      },
+      "description": "type:NPN Current - Collector(Ic):200mA Collector - Emitter Voltage VCEO:40V Pd - Power Dissipation:200mW DC Current Gain:100@10mA,1V DC Current Gain:100@10mA,1V Transition frequency(fT):300MHz Current - Collector Cutoff:100nA Vce Saturation(VCE(sat)):300m",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221228/8E0D38CB11BA2112DE16C3C997A7A661.jpg"
+      ],
+      "source": "79a17a80cabd40719b597fdc7a56f7bb|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1663184458",
+      "custom_tags": "[\"Transistors/Thyristors\",\"Bipolar (BJT)\"]"
+    },
+    "02de147cf0d64c288d46d2b1305edefd": {
+      "title": "MST-12D18G2 SMD Slide Switch",
+      "attributes": {
+        "LCSC Part Name": "MST-12D18G2卧式带柱编带",
+        "Supplier Part": "C49023765",
+        "Manufacturer": "SHOU HAN(首韩)",
+        "Manufacturer Part": "MST-12D18G2 SMD Slide Switch",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/MST-12D18G2%2520SMD%2520Slide%2520Switch/51384140.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "60a00e8d84f64a869c9cd509d492666f",
+        "Designator": "SW?",
+        "Footprint": "6d1857b1014f4d488141cd7176b17708",
+        "3D Model": "f55c1ba5ecef4d5b902868e96e047db6",
+        "3D Model Title": "SW-SMD_3P-L9.1-W3.5-P2.50_MST-12D18G2",
+        "3D Model Transform": "358.267,283.464,0,0,0,0,0,132.559,-19.685",
+        "Circuit": "SPDT",
+        "Actuator Style": "Rectangular Columnar",
+        "Termination Style": "SMD(SMT) Tab",
+        "Length": "9.1mm",
+        "Width": "3.5mm",
+        "Switch Height": "5.5mm",
+        "Mounting Type": "Surface Mount, Right Angle",
+        "Actuator Color": "Black",
+        "Current Rating": "100mA",
+        "Voltage Rating": "12V",
+        "Life": "10,000 Cycles",
+        "Operating Temperature": "-25℃~+70℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Circuit:SPDT Actuator Style:Rectangular Columnar Termination Style:SMD(SMT) Tab Length:9.1mm Width:3.5mm Switch Height:5.5mm Mounting Type:Surface Mount, Right Angle Actuator Color:Black Current Rating:100mA Voltage Rating:12V Life:10,000 Cycles Operating"
+      },
+      "description": "Circuit:SPDT Actuator Style:Rectangular Columnar Termination Style:SMD(SMT) Tab Length:9.1mm Width:3.5mm Switch Height:5.5mm Mounting Type:Surface Mount, Right Angle Actuator Color:Black Current Rating:100mA Voltage Rating:12V Life:10,000 Cycles Operating",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250620/D0FC75D49B04A11666D4AEC8D7A88E38.jpg"
+      ],
+      "source": "687978cf7d7c4affb40f3d2f42f82440|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1767924178",
+      "custom_tags": "[\"Switches\",\"Slide Switches\"]"
+    },
+    "af32ed52b8464067becb8977412ff894": {
+      "title": "CR2032-B1",
+      "attributes": {
+        "LCSC Part Name": "CR2032-B1",
+        "Supplier Part": "C48601332",
+        "Manufacturer": "HanElectricity(瀚源)",
+        "Manufacturer Part": "CR2032-B1",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CR2032-B1/50871509.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "ec36ef6095284ad395584f070a332596",
+        "Designator": "BT?",
+        "Footprint": "fa2078e2599a45f2acf3648bcc98b194",
+        "3D Model": "be4e5bab381d4329b3358470bbc6932f",
+        "3D Model Title": "BAT-SMD_CR2032-B1",
+        "3D Model Transform": "1267.714,630.31374,0,0,0,0,0.002,0,0",
+        "Name": "={Manufacturer Part}",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20250508/EB26DB8A8335BC861E4BB43E4CCC76A3.jpg"
+      ],
+      "source": "dfde27cfe22f4df58c0f5bb98139645a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1757732444",
+      "custom_tags": "[\"Connectors\",\"Button And Strip Battery Connector\"]"
+    },
+    "992b02de97f1403ab9d7499e4c8053af": {
+      "title": "0603WAF3300T5E",
+      "attributes": {
+        "LCSC Part Name": "330Ω ±1% 100mW 厚膜电阻",
+        "Supplier Part": "C23138",
+        "Manufacturer": "UNI-ROYAL(厚声)",
+        "Manufacturer Part": "0603WAF3300T5E",
+        "Supplier Footprint": "0603",
+        "JLCPCB Part Class": "Basic Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5d5f509e6ada434ab17693439556b8b2",
+        "Designator": "R?",
+        "Footprint": "53bcff0941c248d2b49fbfbc48340614",
+        "3D Model": "112863783b5b41f1b5254f87eedc7932",
+        "3D Model Title": "R0603",
+        "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+        "Type": "Thick Film Resistors",
+        "Value": "330Ω",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Overload Voltage (Max)": "",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Name": "={Value}",
+        "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221228/35A40CCF9C2CDE712272E55FFBE2DB45.jpg"
+      ],
+      "source": "0a9f3a313c9145cf8517fd23769490cb|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665171614",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    }
+  },
+  "boards": {
+    "Rocket": {
+      "schematic": "c6585318aa8a438fb18ff9bcc60141fc",
+      "pcb": "d739bd87af81466899c6281507216395"
+    }
+  },
+  "config": {
+    "title": "ROBO_Keychainn",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "2.2.46.11"
+  }
+}
